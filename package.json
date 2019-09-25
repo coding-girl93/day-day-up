@@ -1,0 +1,22 @@
+{
+  "name": "day-day-up",
+  "version": "1.0.0",
+  "description": "coding，",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lylhub/day-day-up.git"
+  },
+  "keywords": [
+    "code"
+  ],
+  "author": "liuyanli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lylhub/day-day-up/issues"
+  },
+  "homepage": "https://github.com/lylhub/day-day-up#readme"
+}
