@@ -4,3 +4,4 @@
 *.gzip
 .idea
 node_modules
+build
