@@ -1,1 +1,3 @@
-alert(2)
+import Promise from './my-promise'
+
+console.log(Promise)
