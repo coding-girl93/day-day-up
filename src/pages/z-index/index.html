@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 50px;
+            border-radius: 4px;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+        }
+        .box1{
+            background-color: aliceblue;
+        }
+        .box2{
+            position: relative;
+            background-color: aqua;
+            z-index: -1;
+        }
+        .box3{
+              background-color:bisque;
+        }
+        .box4{
+            float: left;
+        }
+        .box5{
+            display: inline-block;
+        }
+        .box6{
+            position: relative;
+        }
+        .box7{
+            position: relative;
+            z-index: 10;
+        }
+        .img{
+            width: 200px;
+            height: 100px;
+            position: relative;
+        }
+       
+        .img1{
+            position: relative;
+            z-index: 1;
+        }
+        .img2{
+             position: relative;
+             z-index: 4;
+        }
+        .one{
+            position: absolute;
+            /* z-index: 1; */
+        }
+        .two{
+            position: relative;
+            /* z-index: 1; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img img1">
+        <img class="one" src="https://si.geilicdn.com/img-43090000016d6650e07e0a211587-unadjust_700_545.jpeg" alt="">
+    </div>
+      <div class="img img2">
+        <img  class="two" src="https://si.geilicdn.com/img-06b00000016d235290ef0a21924b_650_390.jpg" alt="">
+    </div>
+    <div class="box box1">border / background</div>
+    <div class="box box2"> z-index = -1</div>
+    <div class="box box3"> block </div>
+    <div class="box box4"> float</div>
+    <div class="box box5"> inline /inline-block</div>
+    <div class="box box6"> z-index=0</div>
+    <div class="box box7"> z-index>0</div>
+    
+</body>
+</html>

@@ -9,7 +9,6 @@
  * 6、asncy await
  */
 
-
 const PENDING = 'pending'
 const FULFILLED = 'fulfilled'
 const REJECTED = 'rejected'
@@ -120,7 +119,7 @@ class Promise {
     catch(onRejected) {
         return this.then(null, onRejected)
     }
-   
+
     static all(promises){
        
         let promise = new Promise((resolve,reject)=>{
@@ -163,7 +162,6 @@ class Promise {
         })
         return promise
     }
-
 }
 
 function resolvePromise(promise,x,resolve,reject){
