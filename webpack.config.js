@@ -45,7 +45,7 @@ const config ={
         path: path.resolve(__dirname, BUILDNAME),
         filename: '[name]/index.js',
     },
-
+    devtool: 'source-map',
     module:{
         rules:[
             {

@@ -6,7 +6,8 @@
   "scripts": {
     "spa": "webpack  --mode development --config webpack.spa.js --watch",
     "server": "webpack-dev-server",
-    "dev": "webpack  --mode development --w"
+    "dev": "webpack  --mode development --w",
+    "debug":"node-nightly --inspect-brk "
   },
   "repository": {
     "type": "git",
