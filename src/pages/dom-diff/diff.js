@@ -30,7 +30,7 @@ function diffAttr(oldAttrs,newAttrs) {
 function diffChildren(oldChildren, newChildren, index, patchs) {
     oldChildren.forEach((child,idx) => {
         walk(child, newChildren[idx], ++Index,patchs)
-    });
+    })
 }
 function  isString(node) {
     return Object.prototype.toString.call(node)==='[object String]'
@@ -71,7 +71,7 @@ function walk(oldNode, newNode, index, patchs) {
             newNode: newNode
         })
     }
-    
+
     if(currentPatch.length){ // 有补丁
         patchs[index] = currentPatch
     }
